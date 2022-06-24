@@ -12,30 +12,28 @@
 
 **Accounts** - https://www.duosecurity.com/docs/accountsapi
 
+# Pre-reqs
+
+```
+- gem
+- jq
+- Duo Secrets - [Duo API](https://duo.com/docs/adminapi#first-steps:~:text=are%20in%20seconds.-,First%20Steps,-Role%20required%3A%20Owner)
+```
+
 # Installing
 
-Development:
-
 ```
-$ git clone https://github.com/duosecurity/duo_api_ruby.git
 $ cd duo_api_ruby
-```
-
-System:
-
-```
 $ gem install duo_api
-```
-
-Or add the following to your project:
-
-```
-gem 'duo_api', '~> 1.0'
 ```
 
 # Using
 
-TODO
+```
+$ git clone https://github.com/sssd-dev/duo_api_ruby.git
+$ cd duo_api_ruby
+$ ruby main.rb {{ duo_api_key }} {{ duo_skey }} {{ duo_api_host }} | jq .
+```
 
 # Testing
 
