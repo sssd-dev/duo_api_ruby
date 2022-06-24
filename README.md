@@ -17,7 +17,7 @@
 ```
 - gem
 - jq
-- Duo Secrets - [Duo API](https://duo.com/docs/adminapi#first-steps:~:text=are%20in%20seconds.-,First%20Steps,-Role%20required%3A%20Owner)
+- Duo Secrets - [Duo API]("https://duo.com/docs/adminapi#first-steps:~:text=are%20in%20seconds.-,First%20Steps,-Role%20required%3A%20Owner")
 ```
 
 # Installing
